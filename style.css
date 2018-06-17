@@ -1,0 +1,40 @@
+html {
+	font-family:Verdana;
+}
+
+nav {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.button {
+	width: 200px;
+	height: 50px;
+	margin: 5px;
+	background-color:#837EB1;
+	text-decoration:none;
+	border:none;
+	border-radius: 12px;
+	transition: all 1s;
+}
+
+.button:hover {
+	background-color:grey;
+	transform:scale(1.1);
+}
+
+.button_link {
+	text-decoration:none;
+}
+
+.button_link:visited {
+	color:#1F1959;
+}
+
+.button_link:link {
+	color:#1F1959;
+}
+
+
+
