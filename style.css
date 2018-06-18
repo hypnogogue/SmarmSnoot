@@ -2,7 +2,7 @@ html {
 	font-family:Verdana;
 }
 
-nav {
+.main_nav {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
@@ -29,11 +29,11 @@ nav {
 }
 
 .button_link:visited {
-	color:#1F1959;
+	color:#DAD8EA;
 }
 
 .button_link:link {
-	color:#1F1959;
+	color:#DAD8EA;
 }
 
 
